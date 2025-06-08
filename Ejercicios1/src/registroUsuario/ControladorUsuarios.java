@@ -1,7 +1,9 @@
 package registroUsuario;
+
 import java.util.*;
 
 public class ControladorUsuarios {
+	
     private List<Usuario> usuarios = new ArrayList<>();
 
     public void agregarUsuario(Usuario u) {
@@ -21,7 +23,7 @@ public class ControladorUsuarios {
         return (double) suma / lista.size();
     }
 
-    // Sobrecarga para buscar por nombre o ciudad
+    // Sobrecarga para buscar por nombre o ciudad.
     public Usuario buscarUsuario(String nombre) {
         for (Usuario u : usuarios) {
             if (u.getNombre().equalsIgnoreCase(nombre)) return u;
