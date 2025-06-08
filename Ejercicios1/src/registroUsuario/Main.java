@@ -30,7 +30,7 @@ public class Main {
             }
         }
 
-        // Estadísticas
+        // Estadísticas...
         System.out.println("\n--- Estadísticas ---");
         System.out.println("Total usuarios: " + controlador.totalUsuarios());
         System.out.println("Promedio edad: " + ControladorUsuarios.calcularPromedioEdad(controlador.getUsuarios()));

@@ -3,8 +3,9 @@ package registroUsuario;
 public class Usuario {
 	
 	
-	    private String nombre;
-	    private int edad;
+
+    	private String nombre;
+    	private int edad;
 	    private String ciudad;
 
 	    public Usuario(String nombre, int edad, String ciudad) {
@@ -21,13 +22,15 @@ public class Usuario {
 	        return edad;
 	    }
 
+	    
 	    public String getCiudad() {
 	        return ciudad;
 	    }
+	    
 
 	    public static class MostrarMensaje {
 	        public static void mostrarMensaje() {
-	            System.out.println("Bienvenidos al Sistema de Registro de Usuarios");
+	            System.out.println("Bienvenidos al Sistema de Registros de Usuarios");
 	        }
 	    }
 	
